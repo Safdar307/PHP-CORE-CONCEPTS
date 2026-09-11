@@ -73,10 +73,10 @@ class Marksheet
 }
 
 $student1 = new Marksheet();
-$student1->setData("Safdar Ali", "101", 85, 78, 90, 88);
+$student1->setData("Safdar Ali", "112", 85, 78, 90, 88);
 
 $student2 = new Marksheet();
-$student2->setData("Ahmed Khan", "102", 60, 70, 65, 55);
+$student2->setData("Ahmed Khan", "120", 60, 70, 65, 55);
 
 $student1->displayResult();
 $student2->displayResult();
